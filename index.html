@@ -11,65 +11,99 @@
 <body>
 
     <header>
-        <div class="box"></div>
+
+        <!--Intestazione e logo-->
+
+        <div class="container">
+            <img src="./img/logo.svg" alt="The Booleaner" id="logo">
+        </div>
+
     </header>
 
     <main>
-        <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <section id="first">Scritto da<a href="https://it.wikipedia.org/wiki/Variabile_booleana"> The Booleaner</a></section>
-        <section>il 10/10/2020</section>
 
-        <br>
+        <div class="container">
 
-        <img src="img/tim-1.jpg" alt="">
-        <img src="img/tim-2.jpg" alt="">
-        <div>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen </div>
-        <div>2nd Photo: Wikimedia, by Paul Clarke</div>
+            <div class="title">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</div>
+            <div class="author">Scritto da <span class="author-name">The Booleaner</span></div>
+            <div class="date">il 10/10/2020</div>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, soluta ad error cum ipsum accusamus assumenda voluptates ut quaerat dolores magni animi itaque cumque, nihil illum totam sint mollitia asperiores? <span>Lorem ipsum dolor sit amet consectetur adipisicing elit</span>. Hic autem, ab nisi neque sunt quae laboriosam exercitationem animi labore, quaerat voluptate! Modi, assumenda totam ab reprehenderit blanditiis laudantium fugiat sed.</p>
+            <!--Immagini e didascalia-->
+            
+            <div class="photos">
+                <img id="photo-1" src="./img/tim-1.jpg" alt="Tim 1">
+                <img id="photo-2" src="./img/tim-2.jpg" alt="Tim 2">
+                <div class="credits">
+                    1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
+                    2nd Photo: Wikimedia, by Paul Clarke
+                </div>
+            </div>
+            <!--Paragrafi-->
+
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, soluta ad error cum ipsum accusamus assumenda voluptates ut quaerat dolores magni animi itaque cumque, nihil illum totam sint mollitia asperiores? <span class="highlight">Lorem ipsum dolor sit amet consectetur adipisicing elit</span>. Hic autem, ab nisi neque sunt quae laboriosam exercitationem animi labore, quaerat voluptate! Modi, assumenda totam ab reprehenderit blanditiis laudantium fugiat sed.</p>
+                
+                <!--Elenco puntato-->
+
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere cumque ipsa cupiditate esse culpa veritatis ut, ducimus vel minima quo quasi sapiente sed inventore quas? Corporis deleniti atque quod delectus?</li>
+                    <li>Nostrum totam incidunt ad? Nulla consectetur totam, nostrum praesentium voluptatum maiores incidunt aut unde at repellendus, dicta ex perspiciatis eius sint? Ad.</li>
+                    <li>Dolore nemo repudiandae fuga esse, cum voluptates doloribus ipsum voluptatibus. Voluptatum, libero. Dolores quam asperiores optio pariatur consectetur itaque deserunt officiis omnis.</li>
+                </ul>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th><strong>Lorem ipsum dolor</strong></th>
+                            <th><strong>Lorem ipsum dolor</strong></th>
+                            <th class="text">Lorem ipsum dolor</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr class="odd">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem nostrum dolores maxime, mollitia eligendi iste exercitationem veniam harum amet officia aut temporibus cupiditate, repellendus odio facilis, praesentium ipsam sunt.</td>
+                        </tr>
         
-        <ul>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere cumque ipsa cupiditate esse culpa veritatis ut, ducimus vel minima quo quasi sapiente sed inventore quas? Corporis deleniti atque quod delectus?</li>
-            <li>Nostrum totam incidunt ad? Nulla consectetur totam, nostrum praesentium voluptatum maiores incidunt aut unde at repellendus, dicta ex perspiciatis eius sint? Ad.</li>
-            <li>Dolore nemo repudiandae fuga esse, cum voluptates doloribus ipsum voluptatibus. Voluptatum, libero. Dolores quam asperiores optio pariatur consectetur itaque deserunt officiis omnis.</li>
-        </ul>
+                        <tr>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem nostrum dolores maxime, mollitia eligendi iste exercitationem veniam harum amet officia aut temporibus cupiditate, repellendus odio facilis, praesentium ipsam sunt.</td>
+                        </tr>
+        
+                        <tr class="odd">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem nostrum dolores maxime, mollitia eligendi iste exercitationem veniam harum amet officia aut temporibus cupiditate, repellendus odio facilis, praesentium ipsam sunt.</td>
+                        </tr>
 
-        <table>
-            <tr id="data">
-                <td><strong>Lorem ipsum dolor</strong></td>
-                <td><strong>Lorem ipsum dolor</strong></td>
-                <td><strong>Lorem ipsum dolor</strong></td>
-            </tr>
+                    </tbody>
 
-            <tr class="highlighted">
-                <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem nostrum dolores maxime, mollitia eligendi iste exercitationem veniam harum amet officia aut temporibus cupiditate, repellendus odio facilis, praesentium ipsam sunt.</td>
-            </tr>
+                </table>
 
-            <tr>
-                <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem nostrum dolores maxime, mollitia eligendi iste exercitationem veniam harum amet officia aut temporibus cupiditate, repellendus odio facilis, praesentium ipsam sunt.</td>
-            </tr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque eos soluta aut dolor totam ex ipsa optio ipsum fugiat, pariatur fugit sint ipsam culpa maiores deleniti consequatur repellat earum.<span class="highlight">Lorem, ipsum dolor sit amet consectetur adipisicing elit</span>. Pariatur cumque similique nisi alias voluptates assumenda sit hic nostrum nemo sed, culpa ducimus corporis distinctio velit ullam asperiores magnam reiciendis autem!</p>
+            
+            </div>
 
-            <tr class="highlighted">
-                <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum autem nostrum dolores maxime, mollitia eligendi iste exercitationem veniam harum amet officia aut temporibus cupiditate, repellendus odio facilis, praesentium ipsam sunt.</td>
-            </tr>
-        </table>
+        </div>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia atque eos soluta aut dolor totam ex ipsa optio ipsum fugiat, pariatur fugit sint ipsam culpa maiores deleniti consequatur repellat earum.<span>Lorem, ipsum dolor sit amet consectetur adipisicing elit</span>. Pariatur cumque similique nisi alias voluptates assumenda sit hic nostrum nemo sed, culpa ducimus corporis distinctio velit ullam asperiores magnam reiciendis autem!</p>
     </main>
 
     <footer>
-        <div>Potrebbero interessarti</div>
-        
-        <br>
-        
-        <div><img src="./img/monitor.jpg" alt=""></div>
-        <div><img src="./img/graph.jpg" alt=""></div>
+        <div class="container">
+
+            <h2>Potrebbero Interessarti</h2>
+            <div id="image-monitor" class="image">
+                <h3>Lorem ipsum dolor</h3>
+            </div>
+            <div id="image-graph" class="image">
+                <h3>Lorem ipsum dolor</h3>
+            </div>
+        </div>
+
     </footer>
 
 </body>
