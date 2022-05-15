@@ -6,16 +6,16 @@
     box-sizing: border-box;
 }
 
-/*Posizione Logo e intestazione*/
+.highlight{
+    background-color: yellow;
+}
 
 .container{
     width: 80%;
     margin: 0 auto;
 }
 
-.highlight{
-    background-color: yellow;
-}
+/*Posizione Logo e intestazione*/
 
 header{
     height: 150px;
@@ -35,7 +35,7 @@ main{
 
 .title{
     font-size: 55px;
-    line-height: 58px;
+    line-height: 55px;
     margin: 0;
 }
 
