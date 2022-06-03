@@ -1,4 +1,5 @@
 /*Resect*/
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -6,56 +7,58 @@
     box-sizing: border-box;
 }
 
-.highlight{
+.highlight {
     background-color: yellow;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
 
 /*Posizione Logo e intestazione*/
 
-header{
+header {
     height: 150px;
     background-image: url(../img/pattern.png);
     background-color: cornflowerblue;
     background-size: 40%;
 }
 
-#logo{
+#logo {
     height: 50px;
     margin-top: 40px;
 }
 
-main{
+/* Main */
+
+main {
     margin-top: 30px;
 }
 
-.title{
+.title { 
     font-size: 55px;
     line-height: 55px;
     margin: 0;
 }
 
-.author{
+.author {
     color: grey;
     font-size: 25px;
     font-weight: bold;
 }
 
-a{
+a {
     text-decoration: none;
     font-weight: bold;
 }
 
-h1{
+h1 {
     font-size: 38px;
     line-height: 40px;
 }
 
-.author-name{
+.author-name {
     color: blue;
 }
 
@@ -64,28 +67,30 @@ h1{
     color: gray;
 }
 
-.photos{
+.photos {
     margin: 20px 0;
 }
 
-.photos .credits{
+.photos .credits {
     font-size: 12px;
 }
 
-.content p{
+.content p {
     margin: 20px 0;
 }
 
-.content ul{
+/* Tabella */
+
+.content ul {
     margin: 30px 15px;
 }
 
-.content table{
+.content table {
     text-align: left;
     border-spacing: 0;
 }
 
-.content table thead{
+.content table thead {
     background-color: rgb(1, 83, 83);
     color: white;
 }
@@ -94,21 +99,23 @@ h1{
     background-color: cornflowerblue;
 }
 
-.content table th.text{
+.content table th.text {
     width: 50%;
 }
 
-footer{
+/* Footer */
+
+footer {
     margin: 30px 0;
 }
 
-footer h2{
+footer h2 {
     font-size: 16px;
     color: gray;
     margin-bottom: 10px;
 }
 
-.image{
+.image {
     width: 208px;
     height: 160px;
     margin: 10px 0;
@@ -118,10 +125,10 @@ footer h2{
     color: white;
 }
 
-#image-monitor{
+#image-monitor {
     background-image: url(../img/monitor.jpg);
 }
 
-#image-graph{
+#image-graph {
     background-image: url(../img/graph.jpg);
 }
